@@ -1,0 +1,10 @@
+version: '0.1.0.{build}'
+image: Visual Studio 2017
+configuration: Release
+init:
+  - cmd: nuget update -self
+  - cmd: nuget restore src\WinFormsCommanding.sln
+build:
+  - project: src\WinFormsCommanding.sln
+  - verbosity: minimal
+test: off
