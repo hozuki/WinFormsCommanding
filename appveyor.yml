@@ -3,6 +3,7 @@ image: Visual Studio 2017
 configuration: Release
 init:
   - cmd: nuget update -self
+before_build:
   - cmd: nuget restore src\WinFormsCommanding.sln
 build:
   project: src\WinFormsCommanding.sln
