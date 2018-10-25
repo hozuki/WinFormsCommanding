@@ -5,6 +5,6 @@ init:
   - cmd: nuget update -self
   - cmd: nuget restore src\WinFormsCommanding.sln
 build:
-  - project: src\WinFormsCommanding.sln
-  - verbosity: minimal
+  project: src\WinFormsCommanding.sln
+  verbosity: minimal
 test: off
