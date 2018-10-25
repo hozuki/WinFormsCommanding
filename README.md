@@ -22,7 +22,7 @@ Therefore, here I introduce a WPF-like commanding for Windows Forms.
 - Operations: execute, revert
 - Usability management
 - `RoutedUICommand` can bind to common controls:
-  - `Button`, `CheckBox`, `RadioBox`, `RadioButton`
+  - `Button`, `CheckBox`, `RadioButton`
   - `MenuItem`
   - `ToolStripButton`, `ToolStripSplitButton`, `ToolStripOverflowButton`
   - `ToolStripMenuItem`
