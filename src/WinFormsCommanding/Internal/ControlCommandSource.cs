@@ -6,7 +6,7 @@ namespace System.Windows.Forms.Input.Internal {
     /// <summary>
     /// An <see cref="ICommandSource" /> that is created from controls.
     /// </summary>
-    internal sealed class ControlCommandSource : CommandSourceBase {
+    internal sealed class ControlCommandSource : CommandSource {
 
         /// <summary>
         /// Creates a new <see cref="ControlCommandSource"/>.

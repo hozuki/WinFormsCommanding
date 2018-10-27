@@ -1,11 +1,11 @@
 ﻿using JetBrains.Annotations;
 
-namespace System.Windows.Forms.Input.Internal {
+namespace System.Windows.Forms.Input {
     /// <inheritdoc />
     /// <summary>
     /// Template implementation for <see cref="ICommandSourceBuilder"/>.
     /// </summary>
-    internal abstract class CommandSourceBuilderBase : ICommandSourceBuilder {
+    public abstract class CommandSourceBuilder : ICommandSourceBuilder {
 
         public ICommandSourceBuilder WithCommand(ICommand command) {
             CommandSource.Command = command;

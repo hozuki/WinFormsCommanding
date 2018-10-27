@@ -1,12 +1,12 @@
-﻿namespace System.Windows.Forms.Input.Internal {
+﻿namespace System.Windows.Forms.Input {
     /// <inheritdoc cref="DisposableBase"/>
     /// <inheritdoc cref="ICommandSource"/>
     /// <summary>
     /// Template implementation for <see cref="ICommandSource"/>.
     /// </summary>
-    internal abstract class CommandSourceBase : DisposableBase, ICommandSource {
+    public abstract class CommandSource : DisposableBase, ICommandSource {
 
-        protected CommandSourceBase() {
+        protected CommandSource() {
             CommandManager.Instance.RegisterCommandSource(this);
         }
 

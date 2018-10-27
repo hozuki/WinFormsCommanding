@@ -51,14 +51,14 @@
     <Compile Include="CommandingExtensions.cs" />
     <Compile Include="CommandManager.cs" />
     <Compile Include="DisposableBase.cs" />
-    <Compile Include="Internal\CommandSourceBase.cs" />
+    <Compile Include="CommandSource.cs" />
     <Compile Include="Internal\ControlCommandSource.cs" />
     <Compile Include="DelegateCommand.cs" />
     <Compile Include="ExecutedEventArgs.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="ICommandSource.cs" />
     <Compile Include="ICommandSourceBuilder.cs" />
-    <Compile Include="Internal\CommandSourceBuilderBase.cs" />
+    <Compile Include="CommandSourceBuilder.cs" />
     <Compile Include="Internal\ControlCommandSourceBuilder.cs" />
     <Compile Include="NamespaceDoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

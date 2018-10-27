@@ -2,11 +2,11 @@
 using JetBrains.Annotations;
 
 namespace System.Windows.Forms.Input.Internal {
-    /// <inheritdoc cref="CommandSourceBuilderBase"/>
+    /// <inheritdoc cref="CommandSourceBuilder"/>
     /// <summary>
     /// A <see cref="ICommandSourceBuilder"/> that creates <see cref="ICommandSource"/> from controls.
     /// </summary>
-    internal sealed class ControlCommandSourceBuilder : CommandSourceBuilderBase {
+    internal sealed class ControlCommandSourceBuilder : CommandSourceBuilder {
 
         /// <summary>
         /// Creates a new <see cref="ControlCommandSourceBuilder"/>.

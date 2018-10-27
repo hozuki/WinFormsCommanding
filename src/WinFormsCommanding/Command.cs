@@ -4,7 +4,7 @@ namespace System.Windows.Forms.Input {
     /// <inheritdoc cref="DisposableBase"/>
     /// <inheritdoc cref="ICommand"/>
     /// <summary>
-    /// Ths base class for commands.
+    /// The base class for commands.
     /// This class must be inherited.
     /// </summary>
     public abstract class Command : DisposableBase, ICommand {
